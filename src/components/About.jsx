@@ -29,10 +29,10 @@ const About = () => {
   return (
     <>
       <div className="py-20 bg-slate-100 px-10 text-slate-900 ">
-        <h2 className="font-semibold lg:text-6xl text-3xl text-center md:px-32 px-10 lg:px-64 leading-[1.2] mb-10">
+        <h2 className="font-semibold lg:text-6xl text-3xl text-center md:px-32  lg:px-64 leading-[1.2] mb-10">
           Experience the power of Seamless Functionality
         </h2>
-        <p className="text-center md:px-32 px-10 lg:px-64">
+        <p className="text-center md:px-32 lg:px-64">
           Boost a comprehensive suites of features designed to elevate every
           aspect of Customer management system
         </p>
