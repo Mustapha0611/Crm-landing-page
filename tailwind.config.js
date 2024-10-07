@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'pattern': "url('./assets/astro.jpg')",
+        
+      }
+    },
   },
   plugins: [],
 }

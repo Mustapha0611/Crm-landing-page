@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Product from './components/Product'
 import Pricing from './components/Pricing'
+import Integration from './components/integration';
+import FooterSection from './components/FooterSection'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
     <About />
     <Product />
     <Pricing />
+    <Integration />
+    <FooterSection />
     </>
   )
 }
