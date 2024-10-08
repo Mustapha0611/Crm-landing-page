@@ -28,7 +28,8 @@ const About = () => {
   ];
   return (
     <>
-      <div className="py-20 bg-slate-100 px-10 text-slate-900 ">
+      <div className="py-20 bg-slate-100 px-10 text-slate-900"
+      id="About">
         <h2 className="font-semibold lg:text-6xl text-3xl text-center md:px-32  lg:px-64 leading-[1.2] mb-10">
           Experience the power of Seamless Functionality
         </h2>

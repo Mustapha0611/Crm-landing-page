@@ -10,12 +10,12 @@ import FooterSection from './components/FooterSection'
 const App = () => {
   return (
     <>
-    <NavBar />
+    <NavBar className="sticky top-0" />
     <Hero />
-    <About />
+    <About  />
     <Product />
-    <Pricing />
-    <Integration />
+    <Pricing/>
+    <Integration  />
     <FooterSection />
     </>
   )

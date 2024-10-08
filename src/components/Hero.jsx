@@ -4,7 +4,9 @@ import woman from '../assets/woman.jpg'
 const Hero = () => {
   return (
     <>
-      <main className="flex items-center flex-col lg:py-0 py-10 lg:pb-0 h-auto lg:h-[90dvh] md:flex-row">
+      <main 
+      className="flex items-center flex-col lg:py-0 py-10 lg:pb-0 h-auto lg:h-[90dvh] md:flex-row"
+      id="hero">
         <section className="flex-1 py-0 pb-10 md:pb-0 px-10">
           <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold mb-10 leading-[1.2]">The Ultimate CRM platform for thriving Businesses.</h1>
           <p className="text-base text-slate-800 pr-5 pb-10">

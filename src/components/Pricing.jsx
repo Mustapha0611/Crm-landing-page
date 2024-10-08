@@ -35,7 +35,8 @@ const Pricing = () => {
       
   return (
     <>
-        <main className='px-10 py-10 flex justify-between flex-wrap'>
+        <main className='px-10 py-10 flex justify-between flex-wrap'
+        id='Pricing'>
             <section className='w-52'>
                 <p className='text-5xl font-semibold pb-10'>Pricing and Plan</p>
             </section>

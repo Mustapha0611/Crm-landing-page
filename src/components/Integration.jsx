@@ -5,7 +5,7 @@ const Integration = () => {
     <div
       className=" w-full h-auto 
      lg:h-screen text-slate-50 bg-opacity-80"
-    >
+    id="integration">
       <section className="py-10 lg:h-[50dvh] h-auto bg-pattern bg-cover pb-20">
         <h1 className="text-center lg:text-5xl md:text-3xl text-2xl font-semibold py-10">
           Integration
