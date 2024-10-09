@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <main 
-      className="flex items-center flex-col lg:py-0 py-10 lg:pb-0 h-auto lg:h-[90dvh] md:flex-row"
+      className="flex items-center overflow-hidden flex-col lg:py-0 py-10 lg:pb-0 h-auto lg:h-[90dvh] md:flex-row"
       id="hero">
         <section className="flex-1 py-0 pb-10 md:pb-0 px-10">
           <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold mb-10 leading-[1.2]" data-aos="fade-in" data-aos-delay="500">The Ultimate CRM platform for thriving Businesses.</h1>
@@ -14,7 +14,7 @@ const Hero = () => {
             our platform empowers you with actionable insights
             and seamless integrations.
           </p>
-          <button className="bg-indigo-700 px-5 py-3 text-white flex items-center gap-2 rounded-2xl font-semibold">
+          <button data-aos="zoom-in-down" className="bg-indigo-700 px-5 py-3 text-white flex items-center gap-2 rounded-2xl font-semibold">
             <span>Learn More</span> <span className="pi pi-arrow-right"></span>
           </button>
         </section>

@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Product from './components/Product'
 import Pricing from './components/Pricing'
-import Integration from './components/integration';
+import Integration from './components/Integration'
 import FooterSection from './components/FooterSection'
 import React, { useEffect } from 'react';
 import AOS from 'aos';
