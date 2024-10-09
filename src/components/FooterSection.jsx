@@ -51,7 +51,7 @@ const footerSection = () => {
           </ul>
         </div>
         <div className="border-2 mx-5 md:mx-10 border-slate-900 rounded-lg"></div>
-        <div className="flex justify-between items-center text-slate-800 flex-wrap py-10 px-5 md:px-10 ">
+        <div className="flex justify-between items-center text-slate-800 flex-wrap py-10 px-5 md:px-10" data-aos="fade-in">
           <span className="text-2xl font-bold">&copy; 2024 Interactify</span>
           <aside className="flex gap-4">
             <span className="pi pi-facebook text-xl text-slate-800"></span>

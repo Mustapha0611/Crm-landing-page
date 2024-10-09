@@ -7,17 +7,17 @@ const Product = () => {
       <main className="flex items-center flex-col lg:py-0 py-10 lg:pb-0 h-auto lg:h-[90dvh] md:flex-row"
       id="Product">
         <section className="flex-1 py-0 pb-10 md:pb-0 px-10">
-          <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold mb-10">
+          <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold mb-10" data-aos="fade-up" >
             Empower your Connections
           </h1>
-          <p className="text-base text-slate-800 pr-5 pb-10">
+          <p className="text-base text-slate-800 pr-5 pb-10" data-aos="zoom-in">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
             facilis sequi tempore. Iste magnam cupiditate excepturi quia
             blanditiis. Optio porro odit placeat aliquam dicta temporibus sint
             nam dolore minima molestias.
           </p>
         </section>
-        <section className="flex-1 flex items-center justify-end">
+        <section className="flex-1 flex items-center justify-end" data-aos="fade-up">
           <span className="w-full flex justify-end md:h-[20rem] lg:h-[30rem] lg:p-16 p-10 bg-slate-50 rounded-s-xl">
             <img
               src={chart}
@@ -29,10 +29,10 @@ const Product = () => {
       </main>
       <main className="flex items-center flex-col lg:py-0 py-10 lg:pb-0 h-auto lg:h-[90dvh] md:flex-row-reverse">
         <section className="flex-1 py-0 pb-10 md:pb-0 px-10 lg:px-20">
-          <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold mb-10">
+          <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold mb-10" data-aos="fade-up">
             Unlock Your Growth Insight
           </h1>
-          <p className="text-base text-slate-800 pr-5 pb-10">
+          <p className="text-base text-slate-800 pr-5 pb-10" data-aos="fade-up">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
             facilis sequi tempore. Iste magnam cupiditate excepturi quia
             blanditiis. Optio porro odit placeat aliquam dicta temporibus sint
